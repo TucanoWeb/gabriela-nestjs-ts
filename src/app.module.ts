@@ -13,11 +13,11 @@ import { Cliente, Aplicativo, Assinatura } from './entities';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: '95.216.252.56',
+      host: 'XXXXXXXXX',
       port: 3306,
-      username: 'gabriela',
-      password: 'mWyPxkhxeWbs7czW',
-      database: 'gabriela',
+      username: 'XXXXXXXXX',
+      password: 'XXXXXXXXX',
+      database: 'XXXXXXXXX',
       entities: [Cliente, Aplicativo, Assinatura],
       synchronize: true,
     }),
